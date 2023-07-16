@@ -1,0 +1,98 @@
+h1, h2{
+    text-align: center;
+}
+#crudForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #crudForm label,
+  #crudForm input,
+  #crudForm button,
+  #passwordValidationMessage {
+    margin-bottom: 10px;
+  }
+  #crudForm input{
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #crudForm button{
+    margin-top: 0;
+  }
+#crudTable {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+ table {
+    border-collapse: separate;
+    border-spacing: 8px;
+  }
+
+  th, td {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+  }
+
+  tbody td:last-child{
+    border: 0;
+  }
+.boton1 {
+    background-color: #261caa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton1:hover {
+    background-color: #3b33a6;
+  }
+  .boton2 {
+    background-color: #33a650;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton2:hover {
+    background-color: #5daa70;
+  }
+  .boton3 {
+    background-color: #971515;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton3:hover {
+    background-color: #9e3131;
+  }
+  @media screen and (max-width: 650px) {
+    table {   
+        margin-left: auto;
+        margin-right: auto;
+    }
+    th{
+        display: none;
+    }
+    td {
+      display: block;
+      width: auto;
+      text-align: left;
+    }
+    td button:first-child{
+        margin-left: 38px;
+    }
+  }
+  
